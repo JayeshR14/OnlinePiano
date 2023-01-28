@@ -1,0 +1,81 @@
+.main{
+  height: 100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.piano{
+  display: flex;
+  flex-direction: column;
+  height:350px;
+  width:700px;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+}
+.customize{
+  display: flex;
+  justify-content: space-between;
+  width:620px;
+  height:50px;
+  color:#b2b2b2;
+  font-family: 'ABeeZee', sans-serif;
+}
+.keys{
+  display: flex;
+  width:620px;
+  height:250px;
+  
+}
+
+.subkey1{
+
+  position: absolute;
+  left:45px;
+}
+.subkey2{
+  
+  background-color: rgb(8, 7, 7);
+  position: absolute;
+  left:107px;
+}
+.subkey3{
+
+  background-color: rgb(8, 7, 7);
+  position: absolute;
+  left:170px;
+}
+
+.keyS1,.keyS2,.keyS3{
+  position: relative;
+  display: flex;
+ 
+}
+.keyS1 div,.keyS2 div,.keyS3 div{
+  height:100%;
+  width:60.2px;
+ border-right-style: solid;
+ border-width: 2px;
+ border-color: #141414;
+  border-radius: 7px;
+  background:linear-gradient(#fff 96%,#eee 4%);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
